@@ -1,0 +1,177 @@
+{
+  "total_images": 2600,
+  "classes": {
+    "person": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "bicycle": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "car": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "motorcycle": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "airplane": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "bus": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "train": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "truck": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "traffic light": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "stop sign": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "bench": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "bird": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "cat": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "dog": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "horse": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "cow": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "elephant": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "bottle": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "cup": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "bowl": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "pizza": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "cake": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "chair": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "couch": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "potted plant": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "bed": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    }
+  },
+  "splits": {
+    "train": 1820,
+    "val": 390,
+    "test": 390
+  },
+  "classification": {
+    "train": 1820,
+    "val": 390,
+    "test": 390
+  },
+  "detection": {
+    "images": 2210,
+    "annotations": 2210,
+    "objects": 22163
+  },
+  "dataset_path": "d:\\Smart vision\\smartvision_dataset"
+}
