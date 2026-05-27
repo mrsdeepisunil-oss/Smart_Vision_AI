@@ -10,7 +10,9 @@ import json # To load metadata
 
 # --- Configuration & Model Loading ---
 # Assuming BASE_DIR is consistent, loading SELECTED_CLASSES from metadata.json
-BASE_DIR = "smartvision_dataset"
+# BASE_DIR = "smartvision_dataset"
+
+BASE_DIR = os.path.join(os.path.dirname(__file__), "..", "smartvision_dataset")
 
 try:
     with open(os.path.join(BASE_DIR, "dataset_metadata.json"), 'r') as f:
