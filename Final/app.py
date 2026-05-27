@@ -11,47 +11,6 @@ st.set_page_config(
 )
 
 
-# st.sidebar.title("SmartVision AI")
-st.sidebar.markdown("# 👁️ SmartVisionAI")
-st.sidebar.write("---")  # Horizontal line separator
-
-
-
-# --- 2. DYNAMIC PATH ROUTING SETUP ---
-# Automatically resolves the paths whether you run on Windows or Mac/Linux
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-PAGES_DIR = os.path.join(BASE_DIR, "pages")
-
-# # Dictionary mapping dropdown selection keys to their exact .py script paths
-# PAGE_ROUTES = {
-#     "Home Overview": None,  # Handled locally inside this file below
-#     "Image Classification": os.path.join(PAGES_DIR, "2_Image_Classification.py"),
-#     "Object Detection": os.path.join(PAGES_DIR, "3_Object_Detection.py"),
-#     "Model Performance Dashboard": os.path.join(PAGES_DIR, "Model_performance.py"),  # Maps directly to your exact filename
-#     "Live Webcam Detection": os.path.join(PAGES_DIR, "5_Live_Webcam_Detection.py")
-# }
-
-# st.sidebar.markdown("--- App Navigation ---")
-
-# # Creating the drop-down selection box widget in the sidebar
-# app_page = st.sidebar.selectbox(
-#     "🧭 Quick Navigation Dashboard",
-#     [
-#         "Home Overview", 
-#         "Image Classification", 
-#         "Object Detection", 
-#         "Model Performance Dashboard", 
-#         "Live Webcam Detection"
-#     ]
-# )
-
-
-st.sidebar.info("💡 Note: You can also use Streamlit's native file sidebar links below to change pages.")
-
-# --- MAIN PAGE ROUTING CONTENT BASED ON SELECTION ---
-# if app_page == "Home Overview":
-st.title("Welcome to SmartVision AI!")
-
 st.markdown(
         """
         This application demonstrates an end-to-end computer vision project
