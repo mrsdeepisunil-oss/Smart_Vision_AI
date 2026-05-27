@@ -3,6 +3,5 @@ runs/
 .virtualenv/
 .venv/
 *.pt.bak
-smartvision_dataset/
 *.pt
 *.cache
