@@ -1,5 +1,4 @@
 # Ignore heavy custom training run folders and models weights
-runs/
 .virtualenv/
 .venv/
 *.pt.bak
